@@ -1,0 +1,6 @@
+Variables de entorno: nos permiten utilizar valores que van a cambiar de acuerdo al entorno de 
+desarrollo en el que nos encontremos. 
+Tenemos que crear un archivo llamado .env.example en la carpeta raíz del proyecto. Y ahí crear 
+las variables con las url q vamos a ir usando y cambiando. 
+Para que las variables funcionen deben llamarse con las palabras REACT_APP al principio si o si. 
+Ejemplo: REACT_APP_URL_API = "http:..."
