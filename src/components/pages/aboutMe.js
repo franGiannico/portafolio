@@ -10,7 +10,7 @@ const AboutMe = () => (
                         <div>
                             <h2>Sobre mí</h2>
                             <p>Me motiva mucho aprender y entender cómo funcionan las cosas. Cuando siento curiosidad por algo, me gusta desarmarlo hasta entender el funcionamiento de sus sistemas.<br></br>
-                            Soy muy paciente y positivo frente a las adversidades. Siempre el vaso medio lleno.<br></br>
+                            Siempre el vaso medio lleno.<br></br>
                             Busco aportar valor con mis conocimientos.
                             </p>                            
                         </div>
