@@ -12,7 +12,7 @@ const Banner = () => (
           <p>Frontend Web Developer</p>
           <a className="button"
            download
-           href="https://github.com/franGiannico/CV/raw/main/Francisco%20Javier%20Giannico%20(6).pdf"
+           href="https://github.com/franGiannico/CV/raw/main/Francisco%20Javier%20Giannico%20(7).pdf"
            >Download CV</a>
         </div>
       </div>
