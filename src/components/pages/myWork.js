@@ -9,8 +9,8 @@ const MyWork = () => {
     useEffect(() => {
         fetch(process.env.REACT_APP_URL_NASA_API)
             .then(response => response.json())
-            .then(data => setWorks(data))
-            // .then(data => console.log(data))
+            //.then(data => setWorks(data))
+            .then(data => console.log(data))
             .catch(e => console.log(e))
     },[])
 
@@ -24,8 +24,8 @@ const MyWork = () => {
     useEffect(() => {
         fetch(`${process.env.REACT_APP_URL_MARVEL_API}nameStartsWith=${endpoint}`)
         .then(response => response.json())
-        // .then(data => console.log(data))
-        .then(data => setMarvel(data))
+        .then(data => console.log(data))
+        //.then(data => setMarvel(data))
         .catch(e => console.log(e))
     }, [endpoint])
     
