@@ -2,7 +2,7 @@ import { string } from "prop-types"
 
 
 const Nasa = ( { date, title, media_type, explanation, url } ) => {
-    if ( {media_type} === 'video') {
+    if (media_type === 'video') {
         return (
             <div className="s-radius-1 s-shadow-bottom background s-shadow-card-micro white-color s-pxy-2">
                 <h3>Astronomy Picture of the Day by NASA</h3>
