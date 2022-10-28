@@ -24,7 +24,7 @@ const Nasa = ( { date, title, media_type, explanation, url } ) => {
             <p>{ explanation }</p>
         </div>
     )
-
+}
 
 Nasa.propTypes = {
     title: string,
