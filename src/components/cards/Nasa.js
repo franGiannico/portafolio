@@ -8,6 +8,10 @@ const Nasa = ( { date, title, media_type, explanation, url } ) => {
             <h4>{ title }</h4>
             <p>Fecha:{date}</p>
 
+            {media_type === 'img' && (
+                <img src={ url } alt={ media_type }/>
+            )}
+
             {media_type === 'video' && (
                 <iframe width="960" height="540" src={ url } 
                     title="YouTube video player" 
@@ -18,9 +22,6 @@ const Nasa = ( { date, title, media_type, explanation, url } ) => {
                 </iframe>
             )}
             
-            {media_type === 'img' && (
-                <img src={ url } alt={ media_type }/>
-            )}
             <p>{ explanation }</p>
         </div>
     )
